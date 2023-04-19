@@ -2,17 +2,12 @@
 
     "hpath": "$EPC",
 
-    "load_package_once": true,
-
-    "enable": false,
-
-    "version": "19.5",
 
     "env": [
 
         {
 
-            "EPC": "C:/BISMUTH/EPC_Package/"
+            "EPC": "C:/Users/ruben.tack/OneDrive - Hogeschool West-Vlaanderen/Documenten/GitHub/EPC/"
 
         }
 
