@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menuDocument>
+
+    <menu>
+
+        <!-- My Script Item -->
+        <scriptItem>
+            <label>My Action Item</label>
+            <scriptCode>
+                <![CDATA[
+from epcworkshop import epc
+
+parm = kwargs["parms"][0]
+prompt = parm.rawValue()
+wrapper = "Analyze the following VEX code from SideFX Houdini and add comments to explain it. I only need the script body, do NOT explain the code body. The code: "
+response = epc.run_chatgpt(prompt, wrapper)]]>
+parm.set(response)
+
+            </scriptCode>
+        </scriptItem>
+        <!-- My Script Item -->
+
+    </menu>
+
+</menuDocument>
